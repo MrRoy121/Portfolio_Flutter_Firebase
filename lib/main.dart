@@ -9,12 +9,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
-    options: const FirebaseOptions(
-        apiKey: "AIzaSyAlYClVgjdhvesnxAwW3XjabANBsopgVLo",
-        projectId: "portfolio-e51aa",
-        messagingSenderId: "479521362690",
-        appId: "1:479521362690:web:2d2e3ab6fd0d7748eb681b",
-  ),);
+    options: const FirebaseOptions( ),);
   runApp(const MyApp());
 }
 
